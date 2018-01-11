@@ -32,4 +32,4 @@ and reboot your raspberry pi
  
  Temperature data will be available in file :
  
- vi   /sys/bus/w1/devices/28-xxxxxxxxxxxxxxxxxxx/wi_slave
+     vi /sys/bus/w1/devices/28-xxxxxxxxxxxxxxxxxxx/wi_slave
