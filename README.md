@@ -12,7 +12,7 @@ The other main characteristic of cutting-edge home automation is remote monitori
 
 # prerequisites:
 
- #.Software : Python
+   #Software : Python
 
      External modules needed
                Pubnub
@@ -23,7 +23,9 @@ The other main characteristic of cutting-edge home automation is remote monitori
  
       $chmod +x setup.sh
       $./setup.sh
-     
+ Hardware : Raspberry Pi
+       
+    
 
 # Setting Up DS18B20
 
