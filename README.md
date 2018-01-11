@@ -12,7 +12,7 @@ The other main characteristic of cutting-edge home automation is remote monitori
 
 # prerequisites:
 
- Software : Python
+ Software : Python2.7
 
      External modules needed
                Pubnub
