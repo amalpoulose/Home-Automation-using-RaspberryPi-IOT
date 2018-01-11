@@ -33,3 +33,10 @@ and reboot your raspberry pi
  Temperature data will be available in file :
  
      vi /sys/bus/w1/devices/28-xxxxxxxxxxxxxxxxxxx/wi_slave
+
+# Setting up I2c and Picamera
+
+Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
+
+     $sudo raspi-config
+     choose interfacig options
