@@ -72,3 +72,11 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
     11.Weight: 45g (1.6 oz)
  
 ![alt text](https://pinout.xyz/resources/raspberry-pi-pinout.png)
+
+# Instructions to run the code
+
+     1.Run following command to install all required Libraries
+          chmod +x setup.sh
+          ./setup.sh
+     2.All file should be in same folder especially i2c.py, spi.py, temp.py, mail.py
+     
