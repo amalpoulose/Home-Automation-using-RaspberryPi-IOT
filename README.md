@@ -71,7 +71,6 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
     10.Size: 85.60mm × 56.5mm
     11.Weight: 45g (1.6 oz)
  
-![alt text](https://pinout.xyz/resources/raspberry-pi-pinout.png)
 
 # Instructions to run the code
 
@@ -84,3 +83,9 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
      5. Create account on Twilio(https://www.twilio.com/)
      6. Use account sid and Auth Token in program 
      7. Create your twilio number(+1415xxxxxx) and include it in the program
+     8. Do steps to setup Temperature sensor DS18B20(refer above).
+     9. Do steps to enable I2C & Picamera(refer above). 
+     
+ # Pin Connections
+ 
+![alt text](https://pinout.xyz/resources/raspberry-pi-pinout.png)
