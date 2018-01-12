@@ -75,12 +75,12 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
 
 # Instructions to run the code
 
-     1.Run following command to install all required Libraries
-          chmod +x setup.sh
-          ./setup.sh
-     2.All file should be in same folder especially i2c.py, spi.py, temp.py, mail.py
-     3.Create account on pubnub(https://www.pubnub.com/) 
-       and use the publish and subscribe keys in Program 
-     4.Create account on Twilio(https://www.twilio.com/)
-       and use account sid and Auth Token in program 
-       also create your twilio number(+1415xxxxxx)
+     1. Run following command to install all required Libraries
+           chmod +x setup.sh
+           ./setup.sh
+     2. All file should be in same folder especially i2c.py, spi.py, temp.py, mail.py
+     3. Create account on pubnub(https://www.pubnub.com/) 
+     4. Use the publish and subscribe keys in Program 
+     5. Create account on Twilio(https://www.twilio.com/)
+     6. Use account sid and Auth Token in program 
+     7. Create your twilio number(+1415xxxxxx) and include it in the program
