@@ -19,19 +19,19 @@ The other main characteristic of cutting-edge home automation is remote monitori
                Twilio
                I2c tools
                Picamera
- Try the below commands to fullfill software requirements  :
+ Try the below commands to fulfill software requirements  :
  
       $chmod +x setup.sh
       $./setup.sh
  Hardware : 
- 
+
     Raspberry Pi
     
     sensors : IR, LDR, RTC(DS3231), Temperature Sensor(DS18b20), PIR, Picamera, Relay, Buzzer
        
     
 
-# Setting Up DS18B20
+# Setting Up DS18B20(Temperature Sensor)
 
 Before executing this program add below lines into /boot/config.txt
 add below lines at the end of /boot/config.txt
@@ -51,3 +51,22 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
 
      $sudo raspi-config
      choose interfacig options
+     enable i2c
+     enable picamera
+     
+# Raspberry Pi Features 
+
+![alt text](https://github.com/amalpoulose/Home-Automation-using-RaspberryPi-IOT/blob/master/raspberrypi.jpg)
+
+    1.CPU: Quad-core 64-bit ARM Cortex A53 clocked at 1.2 GHz
+    2.GPU: 400MHz VideoCore IV multimedia
+    3.Memory: 1GB LPDDR2-900 SDRAM (i.e. 900MHz)
+    4.USB ports: 4
+    5.Video outputs: HDMI, composite video (PAL and NTSC) via 3.5 mm jack
+    6.Network: 10/100Mbps Ethernet and 802.11n Wireless LAN
+    7.Peripherals: 17 GPIO plus specific functions, and HAT ID bus
+    8.Bluetooth: 4.1
+    9.Power source: 5 V via MicroUSB or GPIO header 
+    10.Size: 85.60mm × 56.5mm
+    11.Weight: 45g (1.6 oz)
+ 
