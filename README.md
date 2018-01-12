@@ -71,3 +71,4 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
     10.Size: 85.60mm × 56.5mm
     11.Weight: 45g (1.6 oz)
  
+![alt text](https://pinout.xyz/resources/raspberry-pi-pinout.png)
