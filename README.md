@@ -56,9 +56,11 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
      enable i2c
      enable picamera
      
-# Raspberry Pi Features 
+# RaspberryPi 3B 
 
 ![alt text](https://github.com/amalpoulose/Home-Automation-using-RaspberryPi-IOT/blob/master/raspberrypi.jpg)
+
+Features:
 
     1.CPU: Quad-core 64-bit ARM Cortex A53 clocked at 1.2 GHz
     2.GPU: 400MHz VideoCore IV multimedia
