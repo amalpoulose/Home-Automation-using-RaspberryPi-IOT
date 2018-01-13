@@ -12,13 +12,12 @@ The other main characteristic of cutting-edge home automation is remote monitori
 
 # prerequisites:
 
-Software : Python2.7
-
-     External modules needed
-               Pubnub
-               Twilio
-               I2c tools
-               Picamera
+     Software : Python2.7
+          External python modules needed :
+               -> Pubnub
+               -> Twilio
+               -> I2c tools for smbus
+               -> Picamera
  Try the below commands to fulfill software requirements  :
  
       $chmod +x setup.sh
