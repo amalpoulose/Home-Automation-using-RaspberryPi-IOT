@@ -120,7 +120,7 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
     
     -> PIR :
       -----
-       out  : BCM21 of RaspberryPi
+        out  : BCM21 of RaspberryPi
     
     -> Refer output pins from program 
     -> Connect picamera to camera slot
