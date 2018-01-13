@@ -47,7 +47,7 @@ and reboot your raspberry pi
  
      vi /sys/bus/w1/devices/28-xxxxxxxxxxxxxxxxxxx/wi_slave
 
-# Setting up I2c and Picamera
+# Setting up I2C and Picamera
 
 Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
 
