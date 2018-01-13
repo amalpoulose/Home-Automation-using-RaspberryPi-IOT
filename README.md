@@ -85,6 +85,8 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
      7. Create your twilio number(+1415xxxxxx) and include it in the program
      8. Do steps to setup Temperature sensor DS18B20(refer above).
      9. Do steps to enable I2C & Picamera(refer above). 
+     10.Run pubnub_txt.py for controlling the system using pubnub
+     11.Run pubnub_rcv.py for seeing the messages recieved in pubnub
      
  # Pin Connections
  
