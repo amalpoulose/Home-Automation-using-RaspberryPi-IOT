@@ -84,11 +84,12 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
       5. Create account on Twilio(https://www.twilio.com/)
       6. Use account sid and Auth Token in program 
       7. Create your twilio number(+1415xxxxxx) and include it in the program
-      8. Do steps to setup Temperature sensor DS18B20(refer above).
-      9. Do steps to enable I2C & Picamera(refer above). 
-     10. Use Automation.py to run the project
-     11. Use pubnub_txt.py for controlling the system using pubnub
-     12. Use pubnub_rcv.py for view the messages recieved in pubnub
+      8. Add mail id and password from which you want to send also add destination mail id
+      9. Do steps to setup Temperature sensor DS18B20(refer above).
+     10. Do steps to enable I2C & Picamera(refer above). 
+     11. Use Automation.py to run the project.While testing check your mobile and mailbox
+     12. Use pubnub_txt.py for controlling the system using pubnub
+     13. Use pubnub_rcv.py for view the messages recieved in pubnub
      
  # Pin Connections
  
