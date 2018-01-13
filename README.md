@@ -74,19 +74,20 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
 
 # Instructions to run the code
 
-     1. Run following command to install all required Libraries
+      1. Run following command to install all required Libraries
            chmod +x setup.sh
            ./setup.sh
-     2. All file should be in same folder especially i2c.py, spi.py, temp.py, mail.py
-     3. Create account on pubnub(https://www.pubnub.com/) 
-     4. Use the publish and subscribe keys in Program 
-     5. Create account on Twilio(https://www.twilio.com/)
-     6. Use account sid and Auth Token in program 
-     7. Create your twilio number(+1415xxxxxx) and include it in the program
-     8. Do steps to setup Temperature sensor DS18B20(refer above).
-     9. Do steps to enable I2C & Picamera(refer above). 
-     10.Run pubnub_txt.py for controlling the system using pubnub
-     11.Run pubnub_rcv.py for seeing the messages recieved in pubnub
+      2. All file should be in same folder especially i2c.py, spi.py, temp.py, mail.py
+      3. Create account on pubnub(https://www.pubnub.com/) 
+      4. Use the publish and subscribe keys in Program 
+      5. Create account on Twilio(https://www.twilio.com/)
+      6. Use account sid and Auth Token in program 
+      7. Create your twilio number(+1415xxxxxx) and include it in the program
+      8. Do steps to setup Temperature sensor DS18B20(refer above).
+      9. Do steps to enable I2C & Picamera(refer above). 
+     10. Use Automation.py to run the project
+     11. Use pubnub_txt.py for controlling the system using pubnub
+     12. Use pubnub_rcv.py for view the messages recieved in pubnub
      
  # Pin Connections
  
