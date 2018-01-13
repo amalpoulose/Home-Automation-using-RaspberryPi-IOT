@@ -75,24 +75,6 @@ Features:
     11.Weight: 45g (1.6 oz)
  
 
-# Instructions to run the code
-
-      1. Run following command to install all required Libraries
-           chmod +x setup.sh
-           ./setup.sh
-      2. All file should be in same folder especially i2c.py, spi.py, temp.py, mail.py
-      3. Create account on pubnub(https://www.pubnub.com/) 
-      4. Use the publish and subscribe keys in Program 
-      5. Create account on Twilio(https://www.twilio.com/)
-      6. Use account sid and Auth Token in program 
-      7. Create your twilio number(+1415xxxxxx) and include it in the program
-      8. Add mail id and password from which you want to send also add destination mail id
-      9. Do steps to setup Temperature sensor DS18B20(refer above).
-     10. Do steps to enable I2C & Picamera(refer above). 
-     11. Use Automation.py to run the project.While testing check your mobile and mailbox
-     12. Use pubnub_txt.py for controlling the system using pubnub
-     13. Use pubnub_rcv.py for view the messages recieved in pubnub
-     
  # Pin Connections
  
 ![alt text](https://pinout.xyz/resources/raspberry-pi-pinout.png)
@@ -131,6 +113,24 @@ Features:
     
     -> Refer output pins from program 
     -> Connect picamera to camera slot
+    
+# Instructions to run the code
 
+      1. Run following command to install all required Libraries
+           chmod +x setup.sh
+           ./setup.sh
+      2. All file should be in same folder especially i2c.py, spi.py, temp.py, mail.py
+      3. Create account on pubnub(https://www.pubnub.com/) 
+      4. Use the publish and subscribe keys in Program 
+      5. Create account on Twilio(https://www.twilio.com/)
+      6. Use account sid and Auth Token in program 
+      7. Create your twilio number(+1415xxxxxx) and include it in the program
+      8. Add mail id and password from which you want to send also add destination mail id
+      9. Do steps to setup Temperature sensor DS18B20(refer above).
+     10. Do steps to enable I2C & Picamera(refer above). 
+     11. Use Automation.py to run the project.While testing check your mobile and mailbox
+     12. Use pubnub_txt.py for controlling the system using pubnub
+     13. Use pubnub_rcv.py for view the messages recieved in pubnub
+     
 ![alt text](https://github.com/amalpoulose/Home-Automation-using-RaspberryPi-IOT/blob/master/circuit-breadboard-1.jpg)
 ![alt text](https://github.com/amalpoulose/Home-Automation-using-RaspberryPi-IOT/blob/master/circuit-breadboard-2.jpg)
