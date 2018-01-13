@@ -89,3 +89,35 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
  # Pin Connections
  
 ![alt text](https://pinout.xyz/resources/raspberry-pi-pinout.png)
+
+     DS3231:
+          RTC   :   RaspberryPi
+        ------     -------------
+          SDA           SDA(BCM2)
+          SCL           SCL(BCM3)
+          
+     MCP3204:
+          ADC    :    RaspberryPi
+         -----       -------------
+          clk           BCM22
+          cs            BCM27
+          din           BCM17
+          dout          BCM18
+     
+     LDR:
+    -----
+     A0  : ch0 of Mcp3204
+     
+     IR :
+    ------
+     A0  : ch1 of Mcp3204
+     
+     DS18b20:
+    ---------  
+      out  : BCM 5 of RaspberryPi
+    
+     PIR :
+    -----
+      out  : BCM21 of RaspberryPi
+    
+    refer output pins from program 
