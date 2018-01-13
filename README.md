@@ -128,3 +128,4 @@ Run sudo raspi-config and choose in the menu to enable the pi camera and I2c
     -> Connect picamera to camera slot
 
 ![alt text](https://github.com/amalpoulose/Home-Automation-using-RaspberryPi-IOT/blob/master/circuit-breadboard-1.jpg)
+![alt text](https://github.com/amalpoulose/Home-Automation-using-RaspberryPi-IOT/blob/master/circuit-breadboard-2.jpg)
