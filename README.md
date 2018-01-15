@@ -39,9 +39,10 @@ Before executing this program add below lines into /boot/config.txt
 add below lines at the end of /boot/config.txt
 and reboot your raspberry pi
 
-    #enable ds18b20	
+    #To enable ds18b20	
     dtoverlay=w1-gpio,gpiopin=5
-    gpiopin numbering scheme is BCM pin number
+    
+ Connect temperature sensor output to BCM5
  
  Temperature data will be available in file :
  
