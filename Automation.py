@@ -107,14 +107,14 @@ def main():
 	def ldr():
      		bulb_flg=0
       		while(1):
-        		time.sleep(2)
+        		time.sleep(1) #not needed  given only for checking value 
       		      #reading RTC value
 			t=i2c.i2c_time()
         		os.system("clear")
-			print "Time : ",t
+			print "Time : ",t #not needed given for testing code
        #reading LDR value
 			LDR=spi.adc_read(0)
-			print "LDR : ",LDR
+			print "LDR : ",LDR #not needed given for testing code
 			if LDR>3600 and bulb_flg==0:
 	   			time.sleep(3)
 	   			LDR=spi.adc_read(0)
@@ -139,13 +139,13 @@ def main():
   	def ir():
     		while(1):
       		       #reading RTC value
-        		time.sleep(2)
+        		time.sleep(1) #not needed  given only for checking value 
 			t=i2c.i2c_time()
         		os.system("clear")
-			print "Time : ",t
+			print "Time : ",t #not needed given for testing code
     		       #reading IR value 
 			IR=spi.adc_read(1)
-			print "IR : ",IR
+			print "IR : ",IR #not needed given for testing code
 			if IR<3000 :
 	        		GPIO.output(TAP,False)
 				time.sleep(3)
@@ -156,14 +156,14 @@ def main():
   	def temper():
     		fan_flg=0
      		while(1):
-       			time.sleep(2)
+       			time.sleep(1) #not needed  given only for checking value 
                        #reading RTC value
 			t=i2c.i2c_time()
         		os.system("clear")
-			print "Time : ",t
+			print "Time : ",t #not needed given for testing code
                        #reading temperature value
 			tem=temp.read_temp()
-			print "Temperature : ",tem," c"
+			print "Temperature : ",tem," c" #not needed given for testing code
        
 			if tem>29.0 and fan_flg==0:
 	   			time.sleep(3)
@@ -192,7 +192,7 @@ def main():
                        #reading RTC value
 			t=i2c.i2c_time()
        			os.system("clear")
-			print "Time : ",t
+			print "Time : ",t #not needed given for testing code
 			if GPIO.input(PIR):
 	        		print "Security alert"
 				data = {
@@ -212,7 +212,7 @@ def main():
 
 				time.sleep(10)
 	        		GPIO.output(WARNING,True)
-                	time.sleep(2)
+                	time.sleep(1) #not needed  given only for checking value 
 
         #creating subprocesses
   	p1=Process(target=ldr)
