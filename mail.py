@@ -26,7 +26,7 @@ class my_mail:
     		msg.attach(text)
     		image = MIMEImage(img_data, name=os.path.basename(image))
     		msg.attach(image)
-#    		self.server.ehlo()#when using port 465
+    		#self.server.ehlo()#when using port 465
     		self.server.starttls()
     		self.server.login(self.usrname,self.password)
     		self.server.sendmail(From, To, msg.as_string())
