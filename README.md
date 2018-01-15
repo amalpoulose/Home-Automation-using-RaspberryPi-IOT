@@ -118,8 +118,10 @@ Features:
 # Instructions to run the code
 
       1. Run following command to install all required Libraries
+      
            chmod +x setup.sh
            ./setup.sh
+      
       2. All file should be in same folder especially i2c.py, spi.py, temp.py, mail.py
       3. Create account on pubnub(https://www.pubnub.com/) 
       4. Use the publish and subscribe keys in Program 
