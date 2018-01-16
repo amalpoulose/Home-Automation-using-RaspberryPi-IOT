@@ -12,7 +12,7 @@ import picamera as cam
 import RPi.GPIO as GPIO
 from pubnub import Pubnub
 from twilio.rest import Client
-from multiprocessing import Process,Queue
+from multiprocessing import Process
 
 #setting channel names for pubnub
 channel1="Txt-data"
