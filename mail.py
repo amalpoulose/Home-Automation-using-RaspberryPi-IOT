@@ -22,7 +22,7 @@ class my_mail:
     		msg['Subject'] = sub
     		msg['From'] = From
     		msg['To'] = To
-    		text = MIMEText(sub)
+    		text = MIMEText(body)
     		msg.attach(text)
     		image = MIMEImage(img_data, name=os.path.basename(image))
     		msg.attach(image)
