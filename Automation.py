@@ -224,6 +224,8 @@ def main():
   	p2.start()
   	p3.start()
   	p4.start()
+	
+	p1.join()
 
 #boilerplate syntax
 if __name__ == "__main__":
