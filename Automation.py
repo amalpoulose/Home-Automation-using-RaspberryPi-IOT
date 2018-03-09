@@ -1,5 +1,6 @@
 #! /usr/bin/python2.7 
 
+#importing all the modules
 import os
 import i2c
 import spi
@@ -112,7 +113,7 @@ def main():
 			t=i2c.i2c_time()
         		os.system("clear")
 			print "Time : ",t #not needed given for testing code
-       #reading LDR value
+                      #reading LDR value
 			LDR=spi.adc_read(0)
 			print "LDR : ",LDR #not needed given for testing code
 			if LDR>3600 and bulb_flg==0:
